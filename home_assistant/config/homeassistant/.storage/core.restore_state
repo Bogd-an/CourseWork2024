@@ -1,0 +1,41 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {"entity_id":"conversation.home_assistant","state":"unknown","attributes":{"friendly_name":"Home Assistant"},"last_changed":"2024-06-06T11:23:04.576530+00:00","last_reported":"2024-06-06T11:23:04.576530+00:00","last_updated":"2024-06-06T11:23:04.576530+00:00","context":{"id":"01HZPMKG00Y16WRZMYNFPRJCZH","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-06-06T13:15:49.627074+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.password","state":"unavailable","attributes":{"friendly_name":"Password"},"last_changed":"2024-06-06T13:15:49.475932+00:00","last_reported":"2024-06-06T13:15:49.475932+00:00","last_updated":"2024-06-06T13:15:49.475932+00:00","context":{"id":"01HZPV1YB33JRB3VVMQRJNN3ZM","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "1234",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-06-06T13:15:49.627074+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.pir_sensor_2","state":"unavailable","attributes":{"friendly_name":"PIR Sensor"},"last_changed":"2024-06-06T13:15:49.476185+00:00","last_reported":"2024-06-06T13:15:49.476185+00:00","last_updated":"2024-06-06T13:15:49.476185+00:00","context":{"id":"01HZPV1YB412XV05MKXPRQ32N0","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "no",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-06-06T13:15:49.627074+00:00"
+    },
+    {
+      "state": {"entity_id":"sensor.lock_sensor","state":"unavailable","attributes":{"friendly_name":"Lock Sensor"},"last_changed":"2024-06-06T13:15:49.476247+00:00","last_reported":"2024-06-06T13:15:49.476247+00:00","last_updated":"2024-06-06T13:15:49.476247+00:00","context":{"id":"01HZPV1YB4ESZTDYE09FR2V740","parent_id":null,"user_id":null}},
+      "extra_data": {
+        "native_value": "no",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2024-06-06T13:15:49.627074+00:00"
+    },
+    {
+      "state": {"entity_id":"person.myhome","state":"unknown","attributes":{"editable":true,"id":"myhome","device_trackers":[],"user_id":"8268740b4175406c84b400a4fc801a98","friendly_name":"myHome"},"last_changed":"2024-06-03T21:20:04.866255+00:00","last_reported":"2024-06-03T21:20:08.557677+00:00","last_updated":"2024-06-03T21:20:08.557677+00:00","context":{"id":"01HZFZJKBDER1HG243KSQVZ2WQ","parent_id":null,"user_id":null}},
+      "extra_data": null,
+      "last_seen": "2024-06-03T21:21:23.738760+00:00"
+    }
+  ]
+}

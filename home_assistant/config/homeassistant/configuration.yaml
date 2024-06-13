@@ -1,0 +1,62 @@
+
+# Loads default set of integrations. Do not remove.
+default_config:
+
+# Load frontend themes from the themes folder
+frontend:
+  themes: !include_dir_merge_named themes
+
+automation: !include automations.yaml
+script: !include scripts.yaml
+scene: !include scenes.yaml
+
+# Example configuration.yaml entry
+mqtt:
+  sensor:
+    - name: "Password"
+      unique_id: 5bc54f8b-7914-46fd-897b-fcee98e92409
+      state_topic: "sensor/jsondata"
+      value_template: "{{ value_json.pass }}"
+    - name: "PIR Sensor"
+      unique_id: 5bc54f8b-7914-46fd-897b-fcee98e9240a
+      state_topic: "sensor/jsondata"
+      value_template: >
+        {% if value_json.pir == 1 %}
+          yes
+        {% else %}
+          no
+        {% endif %}
+    - name: "Lock Sensor"
+      unique_id: 5bc54f8b-7914-46fd-897b-fcee98e9240b
+      state_topic: "sensor/jsondata"
+      value_template: >
+        {% if value_json.lock == 1 %}
+          yes
+        {% else %}
+          no
+        {% endif %}
+  # sensor:
+  #   - name: "Sensor1"
+  #     state_topic: "home/sensor1/infojson"
+  #     unique_id: "mqtt-sensor1"
+  #     # unit_of_measurement: "dBm"
+  #     value_template: "{{ value_json.data }}"
+  #     availability:
+  #       - topic: "home/sensor1/status"
+  #     payload_available: "online"
+  #     payload_not_available: "offline"
+  #     json_attributes_topic: "home/sensor1/attributes"
+
+# mqtt_root
+# mqtt_toor
+# lovelace:
+#   mode: yaml
+#   dashboards:
+#     public-dashboard:
+#       mode: yaml
+#       title: Public Dashboard
+#       icon: mdi:eye
+#       show_in_sidebar: true
+#       filename: public_dashboard.yaml
+#       require_admin: false  
+

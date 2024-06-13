@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+
+  homeassistant:
+    container_name: homeassistant
+    image: homeassistant/home-assistant
+    volumes:
+      - ./config/homeassistant/:/config/
+    ports:
+      - "8123:8123"
+      - "1833:1833"
+    # restart: always
+    networks:
+      mynetwork:
+        ipv4_address: 172.28.0.2
+
+  mosquitto:
+    container_name: mosquitto
+    image: eclipse-mosquitto:1.6.9
+    volumes:
+      - ./config/mosquitto/:/mosquitto/data/
+    ports:
+      - "1883:1883"
+    # restart: always
+    networks:
+      mynetwork:
+        ipv4_address: 172.28.0.3
+
+networks:
+  mynetwork:
+    ipam:
+      config:
+        - subnet: 172.28.0.0/16

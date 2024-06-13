@@ -1,0 +1,12 @@
+title: Public Dashboard
+views:
+  - title: Sensors
+    path: sensors
+    badges: []
+    cards:
+      - type: entities
+        title: Sensors States
+        entities:
+          - entity: sensor.password
+          - entity: sensor.pir_sensor
+          - entity: sensor.lock_sensor

@@ -1,0 +1,86 @@
+{
+  "version": 1,
+  "author": "Погорєлов Богдан Ю.",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "wokwi-esp32-devkit-v1",
+      "id": "esp",
+      "top": 167.3,
+      "left": -169.8,
+      "rotate": 90,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 217.6,
+      "left": 44,
+      "attrs": { "pins": "i2c" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": -101.6, "left": 98.22, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 24,
+      "left": 114.65,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-vcc", "id": "vcc1", "top": 183.16, "left": -182.4, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd1", "top": 326.4, "left": -173.4, "attrs": {} },
+    { "type": "wokwi-vcc", "id": "vcc2", "top": -18.44, "left": 96, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd2", "top": 38.4, "left": 162.6, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 150.2,
+      "left": 163.2,
+      "attrs": { "color": "green" }
+    },
+    { "type": "wokwi-vcc", "id": "vcc4", "top": 211.96, "left": 9.6, "attrs": {} },
+    { "type": "wokwi-gnd", "id": "gnd4", "top": 288, "left": 18.6, "attrs": {} },
+    {
+      "type": "wokwi-resistor",
+      "id": "r3",
+      "top": 91.2,
+      "left": 114.65,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    {
+      "type": "wokwi-membrane-keypad",
+      "id": "keypad1",
+      "top": -126.8,
+      "left": -253.6,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "vcc1:VCC", "esp:VIN", "red", [ "v0" ] ],
+    [ "gnd1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "pir1:OUT", "r1:1", "green", [ "v0" ] ],
+    [ "r1:2", "r3:1", "cyan", [ "h0" ] ],
+    [ "gnd2:GND", "pir1:GND", "black", [ "v0", "h-19.2" ] ],
+    [ "gnd2:GND", "r3:2", "black", [ "v0", "h-19.2", "v86.4" ] ],
+    [ "gnd2:GND", "btn1:1.l", "black", [ "v0", "h-19.2", "v115.2" ] ],
+    [ "vcc2:VCC", "pir1:VCC", "red", [ "v0", "h28.8" ] ],
+    [ "gnd4:GND", "lcd1:GND", "black", [ "v0" ] ],
+    [ "vcc4:VCC", "lcd1:VCC", "red", [ "v0" ] ],
+    [ "lcd1:SDA", "esp:D21", "yellow", [ "v86.6", "h-125.2" ] ],
+    [ "lcd1:SCL", "esp:D22", "orange", [ "v0.3", "h-9.6", "v86.4", "h-86.7" ] ],
+    [ "esp:D13", "keypad1:R1", "green", [ "v0" ] ],
+    [ "keypad1:R2", "esp:D12", "green", [ "v0" ] ],
+    [ "esp:D14", "keypad1:R3", "green", [ "v0" ] ],
+    [ "keypad1:R4", "esp:D27", "green", [ "v0" ] ],
+    [ "esp:D26", "keypad1:C1", "green", [ "v0" ] ],
+    [ "keypad1:C2", "esp:D25", "green", [ "v0" ] ],
+    [ "esp:D33", "keypad1:C3", "green", [ "v0" ] ],
+    [ "keypad1:C4", "esp:D32", "green", [ "v0" ] ],
+    [ "r3:1", "esp:D35", "cyan", [ "h-28.8", "v105.6", "h-192" ] ],
+    [ "btn1:2.l", "esp:D23", "blue", [ "h-172.8", "v144.2", "h-28.8" ] ]
+  ],
+  "dependencies": {}
+}

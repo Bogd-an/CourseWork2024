@@ -1,0 +1,36 @@
+{
+  "version": 1,
+  "minor_version": 6,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "vitalnia",
+        "labels": [],
+        "name": "Вітальня",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "kukhnia",
+        "labels": [],
+        "name": "Кухня",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "floor_id": null,
+        "icon": null,
+        "id": "spalnia",
+        "labels": [],
+        "name": "Спальня",
+        "picture": null
+      }
+    ]
+  }
+}

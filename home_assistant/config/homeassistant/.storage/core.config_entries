@@ -1,0 +1,97 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.config_entries",
+  "data": {
+    "entries": [
+      {
+        "entry_id": "8d06b24f624e99867b8248b1c89c0d7a",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "sun",
+        "title": "Sun",
+        "data": {},
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "import",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "e131423380a717f11a2b26e06d66e702",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "met",
+        "title": "Home",
+        "data": {
+          "name": "Home",
+          "latitude": 50.759319,
+          "longitude": 25.34244,
+          "elevation": 0.0
+        },
+        "options": {
+          "name": "Home",
+          "latitude": 50.759319,
+          "longitude": 25.34244,
+          "elevation": 0.0
+        },
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": null
+      },
+      {
+        "entry_id": "795a010a8ec943b8742a582941f909d1",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "google_translate",
+        "title": "Google Translate text-to-speech",
+        "data": {
+          "language": "en",
+          "tld": "com"
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "onboarding",
+        "unique_id": null,
+        "disabled_by": "user"
+      },
+      {
+        "entry_id": "eb90f1bd5abc07f6c40a8655b9c59a52",
+        "version": 1,
+        "minor_version": 1,
+        "domain": "mqtt",
+        "title": "172.28.0.3",
+        "data": {
+          "broker": "172.28.0.3",
+          "port": 1883,
+          "username": "mqtt_root",
+          "password": "mqtt_toor",
+          "discovery": true,
+          "discovery_prefix": "homeassistant",
+          "birth_message": {
+            "topic": "homeassistant/status",
+            "payload": "online",
+            "qos": 0,
+            "retain": false
+          },
+          "will_message": {
+            "topic": "homeassistant/status",
+            "payload": "offline",
+            "qos": 0,
+            "retain": false
+          }
+        },
+        "options": {},
+        "pref_disable_new_entities": false,
+        "pref_disable_polling": false,
+        "source": "user",
+        "unique_id": null,
+        "disabled_by": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,215 @@
+2024-06-06 13:15:49.479 WARNING (MainThread) [homeassistant.components.mqtt.client] Disconnected from MQTT server 172.28.0.3:1883 (7)
+2024-06-06 13:15:50.240 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_3] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.252 CRITICAL (SyncWorker_3) [concurrent.futures] Exception in worker
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 82, in _worker
+    work_item = work_queue.get_nowait()
+                ^^^^^^^^^^^^^^^^^^^^^^^
+_queue.Empty
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+SystemExit
+2024-06-06 13:15:50.264 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_48] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.281 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_23] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.299 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_36] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.315 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_42] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.332 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_5] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.350 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_17] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.367 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_12] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.384 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_38] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.402 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_32] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.419 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_13] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.436 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_61] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.454 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_18] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.530 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_48] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.606 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_23] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.682 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_36] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.758 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_42] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.835 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_5] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.911 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_17] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:50.988 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_12] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:51.064 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_38] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:51.140 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_32] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:51.217 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_13] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:51.299 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_61] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
+2024-06-06 13:15:51.375 WARNING (Thread-2 (_do_shutdown)) [homeassistant.util.executor] Thread[SyncWorker_18] is still running at shutdown: File "/usr/local/lib/python3.12/threading.py", line 1030, in _bootstrap
+    self._bootstrap_inner()
+  File "/usr/local/lib/python3.12/threading.py", line 1073, in _bootstrap_inner
+    self.run()
+  File "/usr/local/lib/python3.12/threading.py", line 1010, in run
+    self._target(*self._args, **self._kwargs)
+  File "/usr/local/lib/python3.12/concurrent/futures/thread.py", line 89, in _worker
+    work_item = work_queue.get(block=True)
